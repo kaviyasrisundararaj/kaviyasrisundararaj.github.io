@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaviya Sri S</title>
+<meta name="description" content="Kaviya Sri S, soil scientist at Tamil Nadu Agricultural University: soil carbon sequestration, carbon modelling, digital soil mapping and nutrient management in semi-arid agriculture.">
+<meta property="og:title" content="Kaviya Sri S – Soil Scientist">
+<meta property="og:image" content="field.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE everyday-professional: a young soil scientist's calling card, calm and exact
+   IDEA a soil profile pit face, the way a soil survey draws a monolith: crop above, horizons below
+   PICTURE full-width Vertisol profile: maize and cotton on the surface, three depth layers (0-15, 15-30, 30-45 cm) with carbon flecks, shrink-swell cracks and lime nodules
+   COLOUR white sky, Vertisol near-black #2a221d, ochre #b8812f support, crop green #4f7f2f accent
+   TYPE Alice display (her resume face) + Source Sans 3 text
+   LAYOUT name and intro in the sky's quiet left corner, profile band across the full width; phone: title, then the band, then content */
+:root{color-scheme:dark;
+--bg:#17140f;
+--ink:#f1e9dc;
+--mute:#c8baa6;
+--rule:#3a2f22;
+--soil:#0f0c09;
+--ochre:#d6a457;
+--green:#8fbf63;
+--panel:#221c15;
+--sky1:#1c1812;
+--sky2:#17140f}
+*{box-sizing:border-box;min-width:0}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 "Inter",system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:500;line-height:1.08;letter-spacing:-.01em;margin:0}
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--ochre)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ochre);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 max(5vw,16px)}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule)}
+nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 22px;padding-block:10px}
+nav .me{font-family:"Fraunces",Georgia,serif;font-size:20px;text-decoration:none}
+nav ul{display:flex;flex-wrap:wrap;gap:4px 18px;list-style:none;margin:0;padding:0;font-size:15px}
+nav ul a{text-decoration:none;color:var(--mute);padding:6px 0;display:inline-block}
+nav ul a:hover{color:var(--ink)}
+.hero{position:relative;background:linear-gradient(var(--sky1),var(--sky2))}
+.banner{margin:clamp(20px,3vw,32px) 0 0;height:clamp(300px,42vw,540px);overflow:hidden}
+.banner img{width:100%;height:100%;object-fit:cover;object-position:30% 62%;display:block}
+.gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0}
+.gal figure{margin:0}
+.gal img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:8px}
+.gal figcaption{font-size:15px;color:var(--mute);margin-top:8px}
+.intro{position:relative;z-index:2;padding-top:clamp(28px,5vw,56px);display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px 26px;align-items:center;max-width:760px}
+.intro img{width:112px;height:112px;border-radius:50%;object-fit:cover;border:3px solid var(--ochre)}
+.intro h1{font-size:clamp(38px,6vw,56px)}
+.role{font-size:19px;color:var(--mute);margin:8px 0 0}
+.lede{grid-column:1/-1;font-size:18px;max-width:62ch;margin:0}
+.links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--ink);text-decoration:none;font-weight:600;font-size:15px;background:var(--bg)}
+.btn.solid{background:var(--ochre);color:#17140f;border-color:var(--ochre)}
+.btn:hover{color:var(--ochre);border-color:var(--ochre)}
+.btn.solid:hover{color:#17140f;background:#e7b866}
+section{padding-block:clamp(40px,6vw,72px);border-top:1px solid var(--rule)}
+section h2{font-size:clamp(30px,4vw,40px);margin-bottom:22px}
+.two{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:28px 56px}
+.facts{display:grid;gap:14px;margin:0;align-content:start}
+.facts div{border-left:3px solid var(--ochre);padding-left:14px}
+.facts dt{font-size:14px;color:var(--mute)}
+.facts dd{margin:0;font-weight:600}
+.themes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 40px}
+.themes h3{font-size:23px;margin:10px 0 8px}
+.themes p{margin:0;color:var(--mute)}
+.chip{width:100%;height:190px;border-radius:10px;overflow:hidden;background:var(--panel)}
+.chip svg{width:100%;height:100%;display:block}
+.chip img{width:100%;height:100%;object-fit:cover;display:block}
+.pubs{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.pubs li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:4px 18px}
+.yr{font-family:"Fraunces",Georgia,serif;font-size:22px;color:var(--ochre);line-height:1.2}
+.pubs .t{font-weight:600}
+.pubs .a,.pubs .j{color:var(--mute);font-size:16px}
+.pubs b{color:var(--ink)}
+.tag{display:inline-block;font-size:13px;padding:1px 9px;border-radius:999px;background:var(--panel);color:var(--ink);margin:4px 6px 0 0;white-space:nowrap}
+.tag.g{background:color-mix(in srgb,var(--green) 18%,var(--bg))}
+h3.sub{font-size:22px;margin:34px 0 14px}
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:22px}
+.tl li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:4px 20px}
+.tl .when{font-family:"Fraunces",Georgia,serif;font-size:19px;color:var(--ochre);white-space:nowrap}
+.tl .what{font-weight:600}
+.tl .where,.tl .note{color:var(--mute);font-size:16px}
+.tl .note{margin-top:4px}
+.quote{border-left:3px solid var(--ochre);padding-left:12px;margin:6px 0 8px}
+.qt{font-style:italic;color:var(--ink);font-size:16px;line-height:1.45}
+.tag.a{background:color-mix(in srgb,var(--ochre) 18%,var(--bg))}
+.tag.n{background:transparent;border:1px solid var(--rule);color:var(--mute)}
+.aw{list-style:none;margin:0;padding:0}
+.aw li{display:grid;grid-template-columns:90px minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.aw li:first-child{border-top:1px solid var(--rule)}
+.aw .when{font-family:"Fraunces",Georgia,serif;color:var(--ochre);white-space:nowrap}
+.aw .by{color:var(--mute);font-size:15px}
+.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 40px}
+.skills h3{font-size:19px;margin-bottom:6px}
+.skills p{margin:0;color:var(--mute)}
+footer{background:var(--soil);border-top:1px solid var(--rule);color:#efe5d9;padding-block:clamp(40px,6vw,64px)}
+footer h2{font-size:clamp(30px,4vw,40px);color:#fff;margin-bottom:16px}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px 40px}
+footer dt{font-size:14px;color:#c9b9a6}
+footer dd{margin:0 0 12px;overflow-wrap:anywhere}
+footer a{color:#fff}
+footer a:hover{color:#e7b866}
+footer .small{margin-top:28px;font-size:14px;color:#b9a896}
+@media(max-width:900px){.themes{grid-template-columns:minmax(0,1fr)}.themes>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:0 18px}.themes .chip{grid-row:span 2;height:100%;min-height:84px}.themes h3{margin-top:0}}
+@media(max-width:720px){.two,.skills{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){body{font-size:16px}.intro{grid-template-columns:minmax(0,1fr)}.intro img{width:88px;height:88px}.banner{height:300px}.gal{grid-template-columns:minmax(0,1fr)}.gal img{aspect-ratio:4/3}.pubs li,.tl li,.aw li{grid-template-columns:minmax(0,1fr)}.themes>div{grid-template-columns:minmax(0,1fr)}.themes .chip{height:150px}nav ul{gap:2px 14px}}
+@media(prefers-reduced-motion:no-preference){.sway{animation:sway 6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}@keyframes sway{to{transform:rotate(2.2deg)}}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="me" href="#top">Kaviya Sri S</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#field-lab">Field &amp; lab</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="intro">
+      <img src="photo.jpg" alt="Portrait of Kaviya Sri S">
+      <div>
+        <h1>Kaviya Sri S</h1>
+        <p class="role">Soil scientist · Ph.D. Scholar, Soil Science &amp; Agricultural Chemistry, Tamil Nadu Agricultural University</p>
+      </div>
+      <p class="lede">I study how soils store carbon in semi-arid farming: how long-term manuring and fertilization change soil carbon, nutrient dynamics and soil biology, and how models and machine learning can predict them.</p>
+      <div class="links">
+        <a class="btn solid" href="#publications">Publications</a>
+        <a class="btn" href="https://www.researchgate.net/profile/Sundararaj-Kaviya-Sri">ResearchGate</a>
+        <a class="btn" href="https://orcid.org/0009-0007-1953-0860">ORCID</a>
+        <a class="btn" href="Kaviya_Sri_S_CV.pdf" download>Download CV</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <figure class="banner"><img src="field.jpg" alt="Kaviya Sri S recording observations on maize in a long-term experiment plot"></figure>
+</header>
+
+<section id="about">
+  <div class="wrap two">
+    <div>
+      <h2>About</h2>
+      <p>I am a soil scientist working on soil carbon, carbon sequestration and carbon modelling in semi-arid agricultural systems. I combine long-term field experiments, laboratory analysis and modelling to understand how nutrient management influences soil carbon, nutrient dynamics, soil health and crop productivity.</p>
+      <p>My doctoral research uses a Permanent Manurial Experiment that has run since 1982 at the Agricultural Research Station, Kovilpatti, on a rainfed maize–cotton rotation. My interests include soil carbon dynamics, soil biology, digital soil mapping and machine learning in soil science. I welcome collaborations in these areas.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>Current</dt><dd>Ph.D. thesis submitted, Tamil Nadu Agricultural University, Coimbatore</dd></div>
+      <div><dt>Thesis</dt><dd>Assessing the carbon sequestration potential in dryland Vertisol under long-term manuring and fertilization</dd></div>
+      <div><dt>Teaching</dt><dd>Creating video lessons for TNPSC exam aspirants on the Travos Ed education platform</dd></div>
+      <div><dt>Qualified</dt><dd>ASRB-NET 2025 (Soil Sciences) · UGC-NET</dd></div>
+      <div><dt>Based in</dt><dd>Coimbatore, Tamil Nadu, India</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <h2>Research</h2>
+    <div class="themes">
+      <div>
+        <div class="chip"><img src="carbon.jpg" alt="Soil cross-section with crop residue on the surface"></div>
+        <h3>Soil carbon and its pools</h3>
+        <p>Organic and inorganic carbon stocks to 45 cm, labile and stable carbon fractions, carbon saturation and the carbon input needed to hold soil carbon in a 44-year experiment.</p>
+      </div>
+      <div>
+        <div class="chip"><img src="model.jpg" alt="Laptop showing modelled soil carbon trends beside books"></div>
+        <h3>Carbon modelling</h3>
+        <p>DNDC simulation of soil carbon from 1982 to 2055 under four climate pathways, and hybrid machine learning–process models for predicting soil organic carbon in drylands.</p>
+      </div>
+      <div>
+        <div class="chip"><img src="mapping.jpg" alt="Soil samples, GPS unit and a tablet showing a soil property map"></div>
+        <h3>Digital soil mapping</h3>
+        <p>Mapping the spatial variability and uncertainty of sulfur and micronutrients across a semi-arid landscape with quantile regression forests and remote sensing.</p>
+      </div>
+      <div>
+        <div class="chip"><img src="phosphorus.jpg" alt="Test tubes showing the blue colour of soil phosphorus analysis beside laterite soil samples, with a flooded rice field behind"></div>
+        <h3>Soil phosphorus dynamics</h3>
+        <p>M.Sc. research on phosphorus fractions in an Alfisol under a 23-year rice–rice long-term fertilizer experiment: integrating FYM and green manure with NPK improved phosphorus availability and retention.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="field-lab">
+  <div class="wrap">
+    <h2>In the field and lab</h2>
+    <div class="gal">
+      <figure><img src="pit.jpg" alt="Kaviya Sri S measuring soil depth in a sampling pit in a maize field" style="object-position:50% 0%"><figcaption>Measuring soil depth before sampling in the maize crop</figcaption></figure>
+      <figure><img src="lab.jpg" alt="Kaviya Sri S preparing reagents in the soil chemistry laboratory" style="object-position:50% 30%"><figcaption>Preparing reagents in the soil chemistry laboratory</figcaption></figure>
+      <figure><img src="titration.jpg" alt="Kaviya Sri S titrating soil extracts; flasks turn from orange to green" style="object-position:50% 40%"><figcaption>Soil organic carbon analysis by titration</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <h2>Publications</h2>
+    <ul class="pubs" id="pubList"></ul>
+    <h3 class="sub">Book chapter</h3>
+    <ul class="pubs">
+      <li><div class="yr">2025</div><div><div class="t">Geoinformatics-based modeling for comprehensive soil quality assessment, monitoring and sustainable management</div><div class="a">Varanasi, S.T., Damotharan, Y., Reddy, B.B., Mohamed Roshan Abu Firnass, M. &amp; <b>Kaviya Sri, S.</b></div><div class="j"><i>Soil Degradation, Desertification and Restoration: Application of Geospatial Technology and Modeling</i>, pp. 279–306. Springer Nature. <a href="https://doi.org/10.1007/978-3-031-92277-0_10">doi:10.1007/978-3-031-92277-0_10</a></div></div></li>
+    </ul>
+    <h3 class="sub">Conference presentation</h3>
+    <ul class="pubs">
+      <li><div class="yr">2025</div><div><div class="t">Effect of integrated nutrient management on soil phosphorus fractions in Alfisol under a long-term rice–rice cropping system</div><div class="a"><b>Kaviya Sri, S.</b>, Batabyal, K. &amp; Bhakiyathu Saliha, B.</div><div class="j">Poster, International Conference on Advances in Plant Health Improvement for Sustainable Agriculture (APHISA 2025), 14–16 February 2025, VOC AC&amp;RI, Killikulam.</div><span class="tag g">Best Poster Presentation Award</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap two">
+    <div>
+      <h2>Education</h2>
+      <ul class="tl">
+        <li><div class="when">2023–2026</div><div><div class="what">Ph.D., Soil Science and Agricultural Chemistry</div><div class="where">Tamil Nadu Agricultural University, Coimbatore</div><div class="quote"><div class="qt">Assessing the carbon sequestration potential in dryland Vertisol under long-term manuring and fertilization</div><div class="where">Advisor: Dr. B. Bhakiyathu Saliha</div></div><span class="tag a">Thesis submitted</span><span class="tag n">44-year Permanent Manurial Experiment</span></div></li>
+        <li><div class="when">2020–2022</div><div><div class="what">M.Sc. (Agriculture), Agricultural Chemistry and Soil Science</div><div class="where">Bidhan Chandra Krishi Viswavidyalaya, West Bengal</div><div class="quote"><div class="qt">Distribution of forms of phosphorus in soil under a long-term fertilizer experiment</div><div class="where">Advisor: Dr. Kaushik Batabyal</div></div><span class="tag n">OGPA 8.99/10</span><span class="tag a">ICAR NTS-PG Scholar</span><span class="tag g">Best Poster Award</span></div></li>
+        <li><div class="when">2015–2019</div><div><div class="what">B.Sc. (Agriculture)</div><div class="where">College of Agricultural Technology, Theni (TNAU)</div><div class="quote"><div class="qt">UG project: Fish amino acid and egg amino acid as foliar nutrition for green gram</div><div class="where">Published in <i>The Pharma Innovation Journal</i> (2019)</div></div><span class="tag n">OGPA 8.37/10</span><span class="tag n">RAWE, Periyakulam</span><span class="tag n">Industrial training, Ooty</span></div></li>
+      </ul>
+    </div>
+    <div id="awards">
+      <h2>Awards</h2>
+      <ul class="aw">
+        <li><div class="when">2025</div><div>ASRB National Eligibility Test, Soil Sciences<div class="by">Agricultural Scientists Recruitment Board, ICAR</div></div></li>
+        <li><div class="when">2025</div><div>Best Poster Presentation Award, APHISA 2025<div class="by">VOC AC&amp;RI, Killikulam</div></div></li>
+        <li><div class="when">2023–24</div><div>Corteva Agriscience Scholarship and Mentorship Program<div class="by">Corteva Agriscience</div></div></li>
+        <li><div class="when">2020–22</div><div>ICAR National Talent Scholarship (NTS-PG)<div class="by">Indian Council of Agricultural Research</div></div></li>
+        <li><div class="when">—</div><div>UGC-NET Qualified<div class="by">University Grants Commission</div></div></li>
+      </ul>
+      <h2 style="margin-top:36px">Memberships</h2>
+      <ul class="aw">
+        <li><div class="when">Member</div><div>Indian Society of Soil Science (ISSS)<div class="by">Coimbatore Chapter</div></div></li>
+        <li><div class="when">Life</div><div>All India Agricultural Students Association (AIASA)<div class="by">Life Member since 2021</div></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Laboratory</h3><p>Soil organic and inorganic carbon; carbon fractionation (POC, MAOC, POXC, humic substances); microbial biomass and soil enzymes; phosphorus fractionation; soil physical and chemical analysis.</p></div>
+      <div><h3>Modelling and data</h3><p>DNDC soil carbon modelling; machine learning (random forest, quantile regression forest); geostatistics; statistical analysis in R and SPSS.</p></div>
+      <div><h3>Geospatial</h3><p>Remote sensing, GIS and digital soil mapping with ArcGIS, QGIS and Google Earth Engine; trained at IIRS–ISRO (2024).</p></div>
+      <div><h3>Writing and teaching</h3><p>Scientific writing and literature synthesis (systematic reviews); video lessons for TNPSC exam aspirants.</p></div>
+    </div>
+    <h2 style="margin-top:44px">Certificates and training</h2>
+    <ul class="aw">
+      <li><div class="when">2025</div><div>Microsoft Excel: Basic to Advanced with AI Integration<div class="by">Agricultural Engineering College &amp; Research Institute, TNAU, Coimbatore · 25–26 October &amp; 1 November 2025</div></div></li>
+      <li><div class="when">2025</div><div>Machine Learning Onramp and MATLAB Onramp<div class="by">MathWorks, online · May 2025</div></div></li>
+      <li><div class="when">2024</div><div>Remote Sensing &amp; GIS in Digital Soil Mapping<div class="by">Indian Institute of Remote Sensing (ISRO), Dehradun · 2–13 December 2024</div></div></li>
+      <li><div class="when">TNAU</div><div>R Programming: Comprehensive Training<div class="by">Dept. of Physical Sciences &amp; Information Technology, TNAU, Coimbatore</div></div></li>
+    </ul>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <dl class="cols">
+      <div><dt>Email</dt><dd><a href="mailto:01kaviyasri@gmail.com">01kaviyasri@gmail.com</a></dd><dd><a href="mailto:kaviya.phdsac2023@tnau.ac.in">kaviya.phdsac2023@tnau.ac.in</a></dd></div>
+      <div><dt>ORCID</dt><dd><a href="https://orcid.org/0009-0007-1953-0860">0009-0007-1953-0860</a></dd><dt>ResearchGate</dt><dd><a href="https://www.researchgate.net/profile/Sundararaj-Kaviya-Sri">Sundararaj-Kaviya-Sri</a></dd></div>
+      <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/kaviya-sri-s-816427177">kaviya-sri-s-816427177</a></dd><dt>Address</dt><dd>Department of Soil Science and Agricultural Chemistry, Tamil Nadu Agricultural University, Coimbatore 641 003, India</dd></div>
+    </dl>
+    <p class="small"><a href="Kaviya_Sri_S_CV.pdf" download>Download my CV (PDF)</a><br>© 2026 Kaviya Sri S</p>
+  </div>
+</footer>
+
+<script>
+{
+const pubs=[
+ {y:"2027",t:"Hybrid machine learning-process-based models for soil organic carbon prediction in drylands: A systematic review",a:"<b>Kaviya Sri, S.</b>, Bhakiyathu Saliha, B.A., Sathiya Bama, K., Boomiraj, K., Sumathi, C.S., Guru, G., Sanjivkumar, V., Manikandan, M., Prasad, J.V.N.S., Singh, V.K. &amp; Gurav, P.P.",j:"<i>Agricultural Systems</i>, 240, 104973",d:"10.1016/j.agsy.2026.104973",m:["IF 6.1","NAAS 12.10","First author"]},
+ {y:"2026",t:"Long-term nutrient management reshapes soil carbon fractions and biological fertility: Evidence from a 43-year semi-arid Vertisol experiment",a:"<b>Kaviya Sri, S.</b>, Bhakiyathu Saliha, B., Sathiya Bama, K., Boomiraj, K., Sumathi, C.S., Guru, G., Sanjivkumar, V., Manikandan, M., Prasad, J.V.N.S., Singh, V.K. &amp; Gurav, P.P.",j:"<i>Plant Science Today</i>, 13(sp5), 1–17",d:"10.14719/pst.15338",m:["IF 0.8","NAAS 6.80","First author"]},
+ {y:"2026",t:"The hidden burden of microplastics in soils: Sources, impacts, and sustainable solutions – a review",a:"Rahman, R.M.A., Abu Firnass, M.M.R., Manimaran, G., Ahash, S., <b>Kaviya Sri, S.</b>, Karmegam, N., Kim, W. &amp; Govarthanan, M.",j:"<i>Journal of Chemical Technology and Biotechnology</i>",d:"10.1002/jctb.70248",m:["IF 2.4","NAAS 8.40"]},
+ {y:"2026",t:"Spatial variability and uncertainty of soil sulfur and micronutrients in a semiarid zone: A multiproxy approach",a:"Bhakiyathu Saliha, B., <b>Kaviyasri, S.</b>, Sakthivel V, R., Manikandan, M., Kumar, S., Jegadeeswaran, M., Guru, G. &amp; Geethakarthi, A.",j:"<i>Physics and Chemistry of the Earth, Parts A/B/C</i>, 144, 104433",d:"10.1016/j.pce.2026.104433",m:["IF 4.1","NAAS 10.10","Corresponding author"]},
+ {y:"2019",t:"Effect of fish amino acid and egg amino acid as foliar application to increase the growth and yield of green gram",a:"Priyanka, B., Anoob, D., Gowsika, M., Kavin, A., <b>Kaviya Sri, S.</b>, Krishna Kumar, R.V., Sangeetha Gomathi, R., Sivamonica, B., Vimala Devi, G. &amp; Theradimani, M.",j:"<i>The Pharma Innovation Journal</i>, 8(6), 684–686",d:"",m:["NAAS 5.03"]}
+];
+document.getElementById("pubList").innerHTML=pubs.map(p=>`<li><div class="yr">${p.y}</div><div><div class="t">${p.t}</div><div class="a">${p.a}</div><div class="j">${p.j}${p.d?`. <a href="https://doi.org/${p.d}">doi:${p.d}</a>`:"."}</div>${p.m.map((x,i)=>`<span class="tag${/author/.test(x)?" g":""}">${x}</span>`).join("")}</div></li>`).join("");
+
+let seed=7;const rnd=()=>(seed=seed*16807%2147483647)/2147483647;
+
+const d1=document.getElementById("dots1");
+if(d1){let h="";for(let i=0;i<70;i++){const y=rnd()<.55?rnd()*28:(rnd()<.6?28+rnd()*28:56+rnd()*28);h+=`<circle cx="${(rnd()*300).toFixed(1)}" cy="${y.toFixed(1)}" r="${(1.2+rnd()*1.8).toFixed(1)}" fill="${y<28?"#c9a15a":"#e9dcc6"}" opacity="${y<28?.95:.6}"/>`;}d1.innerHTML=h;}
+
+const g1=document.getElementById("grid1");
+if(g1){let h="";const cols=25,rows=7;for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){const v=Math.sin(c*.35+r*.6)+Math.cos(c*.18-r*.4)+rnd()*.6;const o=(.25+Math.max(0,Math.min(1,(v+1.6)/3.4))*.75).toFixed(2);h+=`<rect x="${c*12}" y="${r*12}" width="11" height="11" fill="var(--ochre)" opacity="${o}"/>`;}g1.innerHTML=h;}
+
+const s=document.getElementById("profile");
+const draw=()=>{if(!s)return;
+  const W=s.clientWidth,H=s.clientHeight;if(!W||!H)return;seed=11;
+  const narrow=W<600;
+  const top=Math.round(H*(narrow?.36:.32));
+  const L=(H-top)/3;
+  let o=`<defs><linearGradient id="g0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2d24"/><stop offset="1" stop-color="#2a201a"/></linearGradient><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#352b25"/><stop offset="1" stop-color="#3f352d"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a4a3b"/><stop offset="1" stop-color="#6d5a46"/></linearGradient></defs>`;
+  const wav=(y,a)=>{let p=`M0 ${y}`;for(let x=0;x<=W+40;x+=40){const xx=Math.min(x,W);p+=` L${xx} ${(y+Math.sin(xx/90)*a+Math.cos(xx/37)*a*.5).toFixed(1)}`;}return p;};
+  o+=`<path d="${wav(top,3)} L${W} ${H} L0 ${H}Z" fill="url(#g0)"/>`;
+  o+=`<path d="${wav(top+L,4)} L${W} ${H} L0 ${H}Z" fill="url(#g1)"/>`;
+  o+=`<path d="${wav(top+2*L,5)} L${W} ${H} L0 ${H}Z" fill="url(#g2)"/>`;
+  // carbon flecks, densest near the surface
+  for(let i=0;i<Math.round(W/3);i++){const d=Math.pow(rnd(),1.8);const y=top+6+d*(H-top-10);o+=`<circle cx="${(rnd()*W).toFixed(1)}" cy="${y.toFixed(1)}" r="${(0.8+rnd()*1.6).toFixed(1)}" fill="#c9a15a" opacity="${(0.85-d*.6).toFixed(2)}"/>`;}
+  // lime nodules in the subsoil (calcareous Vertisol)
+  for(let i=0;i<Math.round(W/40);i++){const x=rnd()*W,y=top+2*L+8+rnd()*(L-14);o+=`<ellipse cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="${(3+rnd()*4).toFixed(1)}" ry="${(2+rnd()*2.5).toFixed(1)}" fill="#e8dfd0" opacity=".75"/>`;}
+  // shrink-swell cracks
+  const nc=Math.max(3,Math.round(W/170));
+  for(let i=0;i<nc;i++){let x=(i+.5)*W/nc+(rnd()-.5)*60,y=top;let p=`M${x.toFixed(1)} ${y}`;const depth=L*(1.4+rnd()*0.9);while(y<top+depth){y+=10+rnd()*12;x+=(rnd()-.5)*9;p+=` L${x.toFixed(1)} ${y.toFixed(1)}`;}o+=`<path d="${p}" fill="none" stroke="#120d0a" stroke-width="${(2+rnd()*1.5).toFixed(1)}" stroke-linecap="round" opacity=".85"/>`;}
+  // crops: alternating maize and cotton along the surface
+  const step=narrow?46:58,cs=getComputedStyle(document.body);
+  const green=cs.getPropertyValue("--green").trim()||"#3f6f24";
+  for(let x=step/2,i=0;x<W;x+=step,i++){
+    const h=(narrow?54:72)*(0.82+rnd()*0.3),y=top-1;
+    if(i%2===0){
+      o+=`<g class="sway"><path d="M${x} ${y} L${x} ${y-h}" stroke="${green}" stroke-width="3"/>`;
+      for(let k=1;k<=4;k++){const yy=y-h*k/5,dir=k%2?1:-1;o+=`<path d="M${x} ${yy} q${dir*16} ${-10} ${dir*26} ${2}" fill="none" stroke="${green}" stroke-width="3" stroke-linecap="round"/>`;}
+      o+=`<path d="M${x} ${y-h} l-4 -12 l4 4 l4 -4z" fill="#b8812f"/></g>`;
+    }else{
+      const ch=h*.7;o+=`<g class="sway"><path d="M${x} ${y} L${x} ${y-ch}" stroke="${green}" stroke-width="2.5"/>`;
+      for(let k=1;k<=3;k++){const yy=y-ch*k/4;o+=`<circle cx="${x-9}" cy="${yy}" r="6" fill="${green}" opacity=".85"/><circle cx="${x+9}" cy="${yy-6}" r="6" fill="${green}" opacity=".85"/>`;}
+      o+=`<circle cx="${x}" cy="${y-ch-6}" r="7" fill="#f6f1e8" stroke="#d9cdb9"/><circle cx="${x+7}" cy="${y-ch-1}" r="5" fill="#f6f1e8" stroke="#d9cdb9"/></g>`;
+    }
+    o+=`<path d="M${x} ${y} q-6 ${L*.4} -2 ${L*.9} M${x} ${y} q7 ${L*.35} 3 ${L*.8}" fill="none" stroke="#8a6a46" stroke-width="1.2" opacity=".7"/>`;
+  }
+  // depth labels
+  const lx=W-(narrow?8:24);
+  [["0–15 cm",top+L/2],["15–30 cm",top+1.5*L],["30–45 cm",top+2.5*L]].forEach(([t,y])=>{o+=`<text x="${lx}" y="${y+5}" text-anchor="end" font-family="Source Sans 3, sans-serif" font-size="14" font-weight="600" fill="#f2e8da" style="paint-order:stroke;stroke:#1e1712;stroke-width:4px">${t}</text>`;});
+  if(!narrow)o+=`<text x="24" y="${H-16}" font-family="Source Sans 3, sans-serif" font-size="14" fill="#f2e8da" style="paint-order:stroke;stroke:#1e1712;stroke-width:4px">Rainfed Vertisol, maize–cotton rotation · Permanent Manurial Experiment since 1982</text>`;
+  s.innerHTML=o;
+};
+if(s)new ResizeObserver(draw).observe(s);
+}
+</script>
+</body>
+</html>
